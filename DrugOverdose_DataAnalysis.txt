@@ -1,8 +1,4 @@
-﻿--=================================================
---| CHOP Assignment: Analytics Engineer
---| Author: Kamla Kant Tripathi
---| Submitted on: 05/17/2022
---=================================================
+
 -- Note: To check the final table, please run the last query of this file.
 
 
@@ -157,4 +153,5 @@ select distinct * from my_ans
 where HOSPITAL_ENCOUNTER_DATE > '1999-07-15'
         and Age_At_visit between 18 and 35
 order by patient_id
+
 --=================================================
